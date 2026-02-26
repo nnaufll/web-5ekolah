@@ -55,3 +55,73 @@ Sistem login terproteksi dengan role-based access.
 ```bash
 git clone https://github.com/nnaufll/web-5ekolah.git
 cd web-5ekolah
+
+## 📦 Panduan Instalasi
+
+### 2️⃣ Install Dependencies
+
+```bash
+composer install
+npm install
+npm run dev
+```
+
+### 3️⃣ Konfigurasi Environment
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+Atur database di file `.env`:
+
+```env
+DB_DATABASE=sekolahsmp3
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Kemudian jalankan migrasi:
+
+```bash
+php artisan migrate
+```
+
+### 4️⃣ Jalankan Aplikasi
+
+```bash
+php artisan serve
+```
+
+Akses melalui:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 🔑 Akses Default
+
+| Role  | Email              | Password |
+|-------|-------------------|----------|
+| Admin | admin@sekolah.com | password |
+
+Login melalui:
+
+```
+http://127.0.0.1:8000/login
+```
+
+---
+
+## 👥 Kontributor
+
+- Naufal Nadina Putra
+- Roihan Naufal
+
+---
+
+## 🎯 Tujuan Pengembangan
+
+Project ini dikembangkan untuk tujuan edukasi dan implementasi nyata sistem informasi pendidikan berbasis web menggunakan Laravel.
