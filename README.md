@@ -1,61 +1,100 @@
-# 🏫 Sistem Informasi Manajemen Sekolah
-> **Project Magang Semester 6** | Dibuat dengan dedikasi oleh **Naufal & Roihan**
+🏫 Sistem Informasi Manajemen Sekolah
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+Project Magang Semester 6
+Dikembangkan dengan dedikasi oleh Naufal Nadina Putra & Roihan Naufal
 
-Project ini merupakan platform manajemen sekolah modern yang mengintegrasikan pengelolaan data akademik dengan sistem informasi publik yang interaktif.
 
----
 
-### 🛠️ Tech Stack
-| Core | Version |
-| :--- | :--- |
-| **Framework** | Laravel 12.47.0 |
-| **PHP** | 8.2.12 |
-| **Node.js** | v22.15.0 |
-| **Package Mgr** | NPM 10.9.2 |
 
----
 
-### 🚀 Fitur Unggulan
-- 📊 **Dashboard Modern**: Visualisasi statistik data sekolah yang komprehensif.
-- 📰 **CMS Sekolah**: Kelola Berita, Agenda, dan Ekstrakurikuler dengan mudah.
-- 📂 **Data Master**: Manajemen Guru, Siswa, dan Tenaga Kependidikan.
-- 🌙 **User Experience**: Dilengkapi dengan fitur **Dark Mode** untuk kenyamanan Admin.
 
----
 
-### 📦 Panduan Instalasi
 
-1. **Persiapan Project**
-   ```bash
-   git clone https://github.com/nnaufll/web-5ekolah.git
-   cd web-5ekolah
+📖 Tentang Project
 
-2. Manajemen Package
+Sistem Informasi Manajemen Sekolah adalah platform berbasis web yang dibangun menggunakan Laravel untuk membantu sekolah dalam mengelola data akademik sekaligus menyajikan informasi publik secara modern dan interaktif.
+
+Project ini dikembangkan sebagai bagian dari program magang Semester 6 dengan fokus pada:
+
+Efisiensi pengelolaan data sekolah
+
+Tampilan modern dan user-friendly
+
+Struktur sistem yang scalable dan maintainable
+
+🛠️ Tech Stack
+Kategori	Teknologi	Versi
+Framework	Laravel	12.47.0
+Backend	PHP	8.2.12
+Frontend Tools	Node.js	v22.15.0
+Package Manager	NPM	10.9.2
+Database	MySQL	Latest
+🚀 Fitur Unggulan
+📊 Dashboard Modern
+
+Menampilkan visualisasi statistik data sekolah secara ringkas dan informatif.
+
+📰 CMS Sekolah
+
+Kelola berita, agenda, dan ekstrakurikuler dengan sistem manajemen konten yang mudah digunakan.
+
+📂 Data Master Management
+
+Manajemen data Guru, Siswa, dan Tenaga Kependidikan secara terpusat.
+
+🌙 Dark Mode Support
+
+Memberikan kenyamanan visual bagi admin saat bekerja dalam waktu lama.
+
+🔐 Authentication System
+
+Sistem login terproteksi dengan role-based access.
+
+📦 Panduan Instalasi
+1️⃣ Clone Repository
+git clone https://github.com/nnaufll/web-5ekolah.git
+cd web-5ekolah
+2️⃣ Install Dependencies
 composer install
-npm install && npm run dev
-
-3. Pengaturan Environment
-composer install
-npm install && npm run dev
-
-4. Inisialisasi Aplikasi
+npm install
+npm run dev
+3️⃣ Konfigurasi Environment
+cp .env.example .env
 php artisan key:generate
+
+Atur konfigurasi database di file .env:
+
+DB_DATABASE=nama_database
+DB_USERNAME=root
+DB_PASSWORD=
+
+Kemudian jalankan migrasi:
+
+php artisan migrate
+4️⃣ Jalankan Aplikasi
 php artisan serve
 
-5. 🔑 Akses Default
-Role  | Email             | Password
-Admin | admin@sekolah.com | password
-Note: Login dapat diakses melalui http://127.0.0.1:8000/login
+Akses melalui:
 
+http://127.0.0.1:8000
+🔑 Akses Default
+Role	Email	Password
+Admin	admin@sekolah.com
+	password
+
+Login dapat diakses melalui:
+
+http://127.0.0.1:8000/login
 👥 Kontributor
+
 Naufal Nadina Putra
+
 Roihan Naufal
 
-<p align="center">
-<i>Project ini dikembangkan untuk tujuan edukasi dan pengembangan sistem informasi pendidikan.</i>
-</p>
+🎯 Tujuan Pengembangan
+
+Project ini dikembangkan untuk tujuan edukasi dan implementasi nyata sistem informasi pendidikan berbasis web menggunakan Laravel.
+
+<p align="center"> <i>Built with dedication for education and system development 🚀</i> </p>
+
+Sekarang dijamin:
