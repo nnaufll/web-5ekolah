@@ -1,54 +1,61 @@
-    # 🏫 Sistem Informasi Manajemen Sekolah
+# 🏫 Sistem Informasi Manajemen Sekolah
+> **Project Magang Semester 6** | Dibuat dengan dedikasi oleh **Naufal & Roihan**
 
-    Project ini adalah Sistem Manajemen Informasi Sekolah yang dirancang untuk memudahkan pengelolaan data civitas akademika dan konten publik sekolah secara real-time.
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-    ## 🛠️ Tech Stack (Spesifikasi Teknis)
-    Berdasarkan lingkungan pengembangan saat ini, project ini berjalan di atas:
-    * **Framework:** Laravel 12.47.0
-    * **Bahasa Pemrograman:** PHP 8.2.12
-    * **Runtime Environment:** Node.js v22.15.0 & NPM 10.9.2
-    * **Database:** MySQL
+Project ini merupakan platform manajemen sekolah modern yang mengintegrasikan pengelolaan data akademik dengan sistem informasi publik yang interaktif.
 
-    ## 🚀 Fitur Utama
-    * **Admin Dashboard:** Visualisasi data Siswa, Guru & Tendik, serta Fasilitas sekolah.
-    * **Manajemen Konten:** CRUD Berita, Agenda Sekolah, dan Ekstrakurikuler.
-    * **Akademik:** Pengelolaan Jadwal Pelajaran dan Master Data.
-    * **Dark Mode UI:** Antarmuka Dashboard Admin yang modern dan nyaman di mata.
+---
 
-    ## 📦 Cara Instalasi & Penggunaan
-    1. **Clone Repository**
-    ```bash
-    git clone [https://github.com/nnaufll/web-5ekolah.git](https://github.com/nnaufll/web-5ekolah.git)
-    cd web-5ekolah
+### 🛠️ Tech Stack
+| Core | Version |
+| :--- | :--- |
+| **Framework** | Laravel 12.47.0 |
+| **PHP** | 8.2.12 |
+| **Node.js** | v22.15.0 |
+| **Package Mgr** | NPM 10.9.2 |
 
-    2. ** Install Dependencies **
-        ```bash
-        composer install
-        npm install && npm run dev
+---
 
-    3. ** Konfigurasi Database **
-        1. Salin file .env.example menjadi .env.
-        2. Sesuaikan konfigurasi database pada .env.
-        3. Import Database: File SQL tersedia di dalam folder database/database.backup/.
+### 🚀 Fitur Unggulan
+- 📊 **Dashboard Modern**: Visualisasi statistik data sekolah yang komprehensif.
+- 📰 **CMS Sekolah**: Kelola Berita, Agenda, dan Ekstrakurikuler dengan mudah.
+- 📂 **Data Master**: Manajemen Guru, Siswa, dan Tenaga Kependidikan.
+- 🌙 **User Experience**: Dilengkapi dengan fitur **Dark Mode** untuk kenyamanan Admin.
 
-    4. ** Generate Key & Jalankan Server **
-        ```bash
-        php artisan key:generate
-        php artisan serve
+---
 
-    5. ** 🔑 Akses Login Admin **
-        URL: http://127.0.0.1:8000/login
-        Email: admin@sekolah.com
-        Password: password
+### 📦 Panduan Instalasi
 
-    ** Dibuat oleh Naufal dan Roihan sebagai bagian dari Project Magang Semester 6. **
+1. **Persiapan Project**
+   ```bash
+   git clone https://github.com/nnaufll/web-5ekolah.git
+   cd web-5ekolah
 
-    ---
+2. Manajemen Package
+composer install
+npm install && npm run dev
 
-### Ritual Terakhir di Terminal:
-Setelah kamu *save* di VS Code, jangan lupa jalankan ini di terminal biar kodenya naik ke GitHub:
+3. Pengaturan Environment
+composer install
+npm install && npm run dev
 
-```bash
-git add README.md
-git commit -m "Final documentation for internship report"
-git push origin main
+4. Inisialisasi Aplikasi
+php artisan key:generate
+php artisan serve
+
+5. 🔑 Akses Default
+Role  | Email             | Password
+Admin | admin@sekolah.com | password
+Note: Login dapat diakses melalui http://127.0.0.1:8000/login
+
+👥 Kontributor
+Naufal Nadina Putra
+Roihan Naufal
+
+<p align="center">
+<i>Project ini dikembangkan untuk tujuan edukasi dan pengembangan sistem informasi pendidikan.</i>
+</p>
